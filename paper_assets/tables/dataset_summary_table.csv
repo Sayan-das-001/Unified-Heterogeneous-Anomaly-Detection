@@ -1,0 +1,6 @@
+Metric,Value
+Total Samples,"1,000,000"
+Total Features,39
+Domains,4
+Normal Samples,"592,127"
+Attack Samples,"407,873"

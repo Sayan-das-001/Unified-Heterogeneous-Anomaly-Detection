@@ -1,0 +1,4 @@
+Comparison,F1 Gain (%),ROC Gain
+AutoEncoder -> LSTM,13.11,0.2181
+LSTM -> LSTM V2,0.06,0.0009
+Transformer -> Transformer V2,0.56,0.0021

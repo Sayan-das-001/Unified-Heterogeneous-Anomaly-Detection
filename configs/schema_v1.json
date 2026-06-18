@@ -1,0 +1,60 @@
+{
+  "common_features": [
+    "duration",
+    "rate",
+    "mean_value",
+    "variance",
+    "weight",
+    "covariance",
+    "min_value",
+    "max_value"
+  ],
+
+  "unsw_features": [
+    "proto",
+    "state",
+    "service",
+    "tcprtt",
+    "synack",
+    "ackdat",
+    "ct_flw_http_mthd",
+    "is_ftp_login",
+    "ct_ftp_cmd"
+  ],
+
+  "bot_features": [
+    "HH_L0.1_magnitude",
+    "HH_L0.1_radius",
+    "HH_L0.1_pcc",
+    "HpHp_L0.1_magnitude",
+    "HpHp_L0.1_radius",
+    "HpHp_L0.1_pcc"
+  ],
+
+  "cic_features": [
+    "HTTP",
+    "HTTPS",
+    "DNS",
+    "SMTP",
+    "SSH",
+    "TCP",
+    "UDP",
+    "ICMP"
+  ],
+
+  "fiveg_features": [
+    "Load",
+    "Loss",
+    "TcpRtt",
+    "SrcLoad",
+    "DstLoad",
+    "SrcLoss",
+    "DstLoss"
+  ],
+
+  "metadata": [
+    "domain",
+    "binary_label",
+    "attack_category"
+  ]
+}

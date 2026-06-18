@@ -1,0 +1,151 @@
+DATASET: 5G
+============================================================
+
+ROWS SAMPLED: 50000
+COLUMNS: 55
+
+FEATURE NAMES
+------------------------------------------------------------
+Unnamed: 0
+Seq
+Dur
+RunTime
+Mean
+Sum
+Min
+Max
+Proto
+sTos
+dTos
+sDSb
+dDSb
+sTtl
+dTtl
+sHops
+dHops
+Cause
+TotPkts
+SrcPkts
+DstPkts
+TotBytes
+SrcBytes
+DstBytes
+Offset
+sMeanPktSz
+dMeanPktSz
+Load
+SrcLoad
+DstLoad
+Loss
+SrcLoss
+DstLoss
+pLoss
+SrcGap
+DstGap
+Rate
+SrcRate
+DstRate
+State
+SrcWin
+DstWin
+sVid
+dVid
+SrcTCPBase
+DstTCPBase
+TcpRtt
+SynAck
+AckDat
+Label
+Attack Type
+Attack Tool
+domain
+binary_label
+attack_category
+
+
+DATATYPES
+------------------------------------------------------------
+Unnamed: 0           int64
+Seq                  int64
+Dur                float64
+RunTime            float64
+Mean               float64
+Sum                float64
+Min                float64
+Max                float64
+Proto               object
+sTos               float64
+dTos               float64
+sDSb                object
+dDSb                object
+sTtl               float64
+dTtl               float64
+sHops              float64
+dHops              float64
+Cause               object
+TotPkts              int64
+SrcPkts              int64
+DstPkts              int64
+TotBytes             int64
+SrcBytes             int64
+DstBytes             int64
+Offset               int64
+sMeanPktSz         float64
+dMeanPktSz         float64
+Load               float64
+SrcLoad            float64
+DstLoad            float64
+Loss                 int64
+SrcLoss              int64
+DstLoss              int64
+pLoss              float64
+SrcGap             float64
+DstGap             float64
+Rate               float64
+SrcRate            float64
+DstRate            float64
+State               object
+SrcWin             float64
+DstWin             float64
+sVid               float64
+dVid               float64
+SrcTCPBase         float64
+DstTCPBase         float64
+TcpRtt             float64
+SynAck             float64
+AckDat             float64
+Label               object
+Attack Type         object
+Attack Tool         object
+domain              object
+binary_label         int64
+attack_category     object
+
+
+MISSING VALUES
+------------------------------------------------------------
+sTos: 3
+dTos: 41411
+sDSb: 3
+dDSb: 41411
+sTtl: 3
+dTtl: 41411
+sHops: 3
+dHops: 41411
+SrcGap: 28831
+DstGap: 28831
+SrcWin: 28833
+DstWin: 49179
+sVid: 39728
+dVid: 49891
+SrcTCPBase: 28831
+DstTCPBase: 49217
+
+
+CONSTANT COLUMNS
+------------------------------------------------------------
+SrcGap
+DstGap
+sVid
+dVid
+domain

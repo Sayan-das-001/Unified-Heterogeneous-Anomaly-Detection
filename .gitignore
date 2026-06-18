@@ -1,0 +1,48 @@
+# =========================
+# DATASETS
+# =========================
+
+raw_data/
+Phase1_audit/
+Phase2_clean/
+Phase3_sampling/
+Phase4_harmonized/
+Phase5_heterogeneous/
+Phase6_final_dataset/
+Phase7_splits/
+
+# =========================
+# ARCHIVES
+# =========================
+
+archive/
+
+# =========================
+# PYTHON CACHE
+# =========================
+
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# VIRTUAL ENV
+# =========================
+
+venv/
+env/
+hetero_ids/
+
+# =========================
+# SYSTEM FILES
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# LARGE TEMP FILES
+# =========================
+
+*.parquet
+*.tmp

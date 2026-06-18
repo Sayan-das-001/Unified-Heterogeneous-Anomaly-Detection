@@ -1,0 +1,7 @@
+Model,Accuracy,Precision,Recall,F1,ROC_AUC
+LSTM V2,91.92,83.8,99.41,90.94,0.9808
+Transformer V2,91.98,84.42,98.52,90.92,0.9795
+LSTM,91.92,84.2,98.71,90.88,0.9799
+Transformer,91.43,83.52,98.42,90.36,0.9774
+Global Transformer,88.21,78.14,98.72,87.23,0.9682
+AutoEncoder,84.26,91.75,67.48,77.77,0.7618

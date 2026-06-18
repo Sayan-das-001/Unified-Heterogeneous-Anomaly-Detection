@@ -1,0 +1,126 @@
+DATASET: UNSW
+============================================================
+
+ROWS SAMPLED: 50000
+COLUMNS: 52
+
+FEATURE NAMES
+------------------------------------------------------------
+srcip
+sport
+dstip
+dsport
+proto
+state
+dur
+sbytes
+dbytes
+sttl
+dttl
+sloss
+dloss
+service
+Sload
+Dload
+Spkts
+Dpkts
+swin
+dwin
+stcpb
+dtcpb
+smeansz
+dmeansz
+trans_depth
+res_bdy_len
+Sjit
+Djit
+Stime
+Ltime
+Sintpkt
+Dintpkt
+tcprtt
+synack
+ackdat
+is_sm_ips_ports
+ct_state_ttl
+ct_flw_http_mthd
+is_ftp_login
+ct_ftp_cmd
+ct_srv_src
+ct_srv_dst
+ct_dst_ltm
+ct_src_ ltm
+ct_src_dport_ltm
+ct_dst_sport_ltm
+ct_dst_src_ltm
+attack_cat
+Label
+domain
+binary_label
+attack_category
+
+
+DATATYPES
+------------------------------------------------------------
+srcip                object
+sport                object
+dstip                object
+dsport               object
+proto                object
+state                object
+dur                 float64
+sbytes                int64
+dbytes                int64
+sttl                  int64
+dttl                  int64
+sloss                 int64
+dloss                 int64
+service              object
+Sload               float64
+Dload               float64
+Spkts                 int64
+Dpkts                 int64
+swin                  int64
+dwin                  int64
+stcpb                 int64
+dtcpb                 int64
+smeansz               int64
+dmeansz               int64
+trans_depth           int64
+res_bdy_len           int64
+Sjit                float64
+Djit                float64
+Stime                 int64
+Ltime                 int64
+Sintpkt             float64
+Dintpkt             float64
+tcprtt              float64
+synack              float64
+ackdat              float64
+is_sm_ips_ports       int64
+ct_state_ttl          int64
+ct_flw_http_mthd    float64
+is_ftp_login        float64
+ct_ftp_cmd            int64
+ct_srv_src            int64
+ct_srv_dst            int64
+ct_dst_ltm            int64
+ct_src_ ltm           int64
+ct_src_dport_ltm      int64
+ct_dst_sport_ltm      int64
+ct_dst_src_ltm        int64
+attack_cat           object
+Label                 int64
+domain               object
+binary_label          int64
+attack_category      object
+
+
+MISSING VALUES
+------------------------------------------------------------
+attack_cat: 46616
+
+
+CONSTANT COLUMNS
+------------------------------------------------------------
+domain
