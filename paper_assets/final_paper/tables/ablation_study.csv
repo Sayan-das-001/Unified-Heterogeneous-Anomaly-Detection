@@ -1,0 +1,7 @@
+Configuration,F1,ROC_AUC
+LSTM V2,90.94,0.9808
+Transformer V2,90.92,0.9795
+Global Transformer,87.23,0.9682
+XGBoost,91.18,0.987
+LSTM+Transformer+XGB,91.4,0.9871
+LSTM+Transformer+Global+XGB,91.46,0.98711
