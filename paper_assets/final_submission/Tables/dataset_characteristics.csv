@@ -1,0 +1,8 @@
+Attribute,Value
+Total Samples,1000000.0
+Total Features,39.0
+Domains,4.0
+Normal Samples,592127.0
+Attack Samples,407873.0
+Normal Ratio (%),59.21
+Attack Ratio (%),40.79

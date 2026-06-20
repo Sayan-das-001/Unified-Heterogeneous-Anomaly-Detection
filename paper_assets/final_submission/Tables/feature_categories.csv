@@ -1,0 +1,6 @@
+Category,Examples
+Traffic Features,"duration, rate"
+Protocol Features,"TCP, UDP, ICMP"
+Flow Features,"Load, Loss"
+Statistical Features,"mean_value, variance"
+Domain Identifier,domain

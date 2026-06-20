@@ -1,0 +1,6 @@
+Variant,Changes,Accuracy,F1
+Transformer Baseline,Baseline Architecture,91.43,90.36
+Transformer + AdamW,Weight Decay Added,91.6,90.52
+Transformer + Scheduler,Adaptive Learning Rate,91.75,90.7
+Transformer + EarlyStopping,Training Stabilization,91.84,90.81
+Transformer V2 (Final),All Improvements Combined,91.98,90.92

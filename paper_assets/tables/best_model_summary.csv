@@ -1,0 +1,5 @@
+Metric,Model,Value
+Best Accuracy,Transformer V2,91.98
+Best F1,LSTM V2,90.94
+Best ROC-AUC,LSTM V2,0.9808
+Best Recall,LSTM V2,99.41

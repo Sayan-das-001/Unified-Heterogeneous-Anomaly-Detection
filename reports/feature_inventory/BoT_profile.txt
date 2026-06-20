@@ -1,0 +1,87 @@
+DATASET: BoT
+============================================================
+
+ROWS SAMPLED: 50000
+COLUMNS: 30
+
+FEATURE NAMES
+------------------------------------------------------------
+MI_dir_L0.1_weight
+MI_dir_L0.1_mean
+MI_dir_L0.1_variance
+H_L0.1_weight
+H_L0.1_mean
+H_L0.1_variance
+HH_L0.1_weight
+HH_L0.1_mean
+HH_L0.1_std
+HH_L0.1_magnitude
+HH_L0.1_radius
+HH_L0.1_covariance
+HH_L0.1_pcc
+HH_jit_L0.1_weight
+HH_jit_L0.1_mean
+HH_jit_L0.1_variance
+HpHp_L0.1_weight
+HpHp_L0.1_mean
+HpHp_L0.1_std
+HpHp_L0.1_magnitude
+HpHp_L0.1_radius
+HpHp_L0.1_covariance
+HpHp_L0.1_pcc
+Device_Name
+Attack
+Attack_subType
+label
+domain
+binary_label
+attack_category
+
+
+DATATYPES
+------------------------------------------------------------
+MI_dir_L0.1_weight      float64
+MI_dir_L0.1_mean        float64
+MI_dir_L0.1_variance    float64
+H_L0.1_weight           float64
+H_L0.1_mean             float64
+H_L0.1_variance         float64
+HH_L0.1_weight          float64
+HH_L0.1_mean            float64
+HH_L0.1_std             float64
+HH_L0.1_magnitude       float64
+HH_L0.1_radius          float64
+HH_L0.1_covariance      float64
+HH_L0.1_pcc             float64
+HH_jit_L0.1_weight      float64
+HH_jit_L0.1_mean        float64
+HH_jit_L0.1_variance    float64
+HpHp_L0.1_weight        float64
+HpHp_L0.1_mean          float64
+HpHp_L0.1_std           float64
+HpHp_L0.1_magnitude     float64
+HpHp_L0.1_radius        float64
+HpHp_L0.1_covariance    float64
+HpHp_L0.1_pcc           float64
+Device_Name              object
+Attack                   object
+Attack_subType           object
+label                     int64
+domain                   object
+binary_label              int64
+attack_category          object
+
+
+MISSING VALUES
+------------------------------------------------------------
+
+
+CONSTANT COLUMNS
+------------------------------------------------------------
+Device_Name
+Attack
+Attack_subType
+label
+domain
+binary_label
+attack_category

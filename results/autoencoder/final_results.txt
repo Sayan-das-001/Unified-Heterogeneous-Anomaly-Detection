@@ -1,0 +1,29 @@
+MODEL: Autoencoder Baseline
+
+Dataset:
+1M Heterogeneous Dataset
+
+Domains:
+UNSW-NB15
+BoT-IoT
+CICIoT2023
+5G-NIDD
+
+Training Samples:
+414489 Normal Samples
+
+Threshold Optimization Results:
+
+70 Percentile:
+Accuracy = 84.26%
+Precision = 91.75%
+Recall = 67.48%
+F1 Score = 77.77%
+
+ROC-AUC = 0.7618
+
+Selected Threshold:
+70th Percentile
+
+Status:
+Baseline Completed

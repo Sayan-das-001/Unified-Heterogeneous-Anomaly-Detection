@@ -1,0 +1,127 @@
+DATASET: CIC
+============================================================
+
+ROWS SAMPLED: 50000
+COLUMNS: 50
+
+FEATURE NAMES
+------------------------------------------------------------
+flow_duration
+Header_Length
+Protocol Type
+Duration
+Rate
+Srate
+Drate
+fin_flag_number
+syn_flag_number
+rst_flag_number
+psh_flag_number
+ack_flag_number
+ece_flag_number
+cwr_flag_number
+ack_count
+syn_count
+fin_count
+urg_count
+rst_count
+HTTP
+HTTPS
+DNS
+Telnet
+SMTP
+SSH
+IRC
+TCP
+UDP
+DHCP
+ARP
+ICMP
+IPv
+LLC
+Tot sum
+Min
+Max
+AVG
+Std
+Tot size
+IAT
+Number
+Magnitue
+Radius
+Covariance
+Variance
+Weight
+label
+domain
+binary_label
+attack_category
+
+
+DATATYPES
+------------------------------------------------------------
+flow_duration      float64
+Header_Length      float64
+Protocol Type      float64
+Duration           float64
+Rate               float64
+Srate              float64
+Drate              float64
+fin_flag_number    float64
+syn_flag_number    float64
+rst_flag_number    float64
+psh_flag_number    float64
+ack_flag_number    float64
+ece_flag_number    float64
+cwr_flag_number    float64
+ack_count          float64
+syn_count          float64
+fin_count          float64
+urg_count          float64
+rst_count          float64
+HTTP               float64
+HTTPS              float64
+DNS                float64
+Telnet             float64
+SMTP               float64
+SSH                float64
+IRC                float64
+TCP                float64
+UDP                float64
+DHCP               float64
+ARP                float64
+ICMP               float64
+IPv                float64
+LLC                float64
+Tot sum            float64
+Min                float64
+Max                float64
+AVG                float64
+Std                float64
+Tot size           float64
+IAT                float64
+Number             float64
+Magnitue           float64
+Radius             float64
+Covariance         float64
+Variance           float64
+Weight             float64
+label               object
+domain              object
+binary_label         int64
+attack_category     object
+
+
+MISSING VALUES
+------------------------------------------------------------
+
+
+CONSTANT COLUMNS
+------------------------------------------------------------
+ece_flag_number
+cwr_flag_number
+Telnet
+SMTP
+IRC
+DHCP
+domain

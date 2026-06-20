@@ -1,0 +1,139 @@
+
+==================================================
+proto
+==================================================
+Unique Values: 137
+
+Top 20 Values:
+proto
+UNKNOWN     400000
+udp         309001
+tcp         279319
+icmp          7360
+sctp          1100
+arp            955
+unas           743
+ospf           610
+lldp            32
+any             18
+llc             16
+sep             16
+gre             15
+netblt          14
+swipe           13
+ipv6            13
+crtp            13
+crudp           12
+wb-expak        12
+mobile          12
+Name: count, dtype: int64
+
+==================================================
+state
+==================================================
+Unique Values: 18
+
+Top 20 Values:
+state
+UNKNOWN    400000
+FIN        223235
+REQ        146593
+CON        111695
+INT         92161
+RST         18639
+ECO          7136
+ACC           276
+URP           194
+CLO            25
+RSP            15
+URH            11
+PAR             9
+TST             6
+MAS             2
+TXD             1
+no              1
+NRS             1
+Name: count, dtype: int64
+
+==================================================
+service
+==================================================
+Unique Values: 14
+
+Top 20 Values:
+service
+UNKNOWN     700000
+-           170080
+dns          56575
+http         29606
+ftp-data     18271
+smtp         11864
+ssh           6851
+ftp           6475
+pop3           230
+ssl             19
+snmp            12
+dhcp             8
+irc              5
+radius           4
+Name: count, dtype: int64
+
+==================================================
+ct_ftp_cmd
+==================================================
+Unique Values: 9
+
+Top 20 Values:
+ct_ftp_cmd
+UNKNOWN    700000
+           148186
+0          146075
+1            5605
+2              47
+4              35
+3              25
+6              15
+5              12
+Name: count, dtype: int64
+
+==================================================
+domain
+==================================================
+Unique Values: 4
+
+Top 20 Values:
+domain
+UNSW          300000
+5G            300000
+BoTIoT        200000
+CICIoT2023    200000
+Name: count, dtype: int64
+
+==================================================
+attack_category
+==================================================
+Unique Values: 62
+
+Top 20 Values:
+attack_category
+Benign                     403358
+UDPFlood                   113094
+udp                         58783
+HTTPFlood                   34666
+DDoS-ICMP_Flood             31049
+scan                        24597
+DDoS-UDP_Flood              23296
+syn                         22605
+ack                         20015
+DDoS-TCP_Flood              19274
+SlowrateDoS                 17936
+tcp                         17788
+DDoS-RSTFINFlood            17483
+DDoS-SYN_Flood              17457
+DDoS-PSHACK_Flood           17440
+udpplain                    16263
+Normal                      15944
+combo                       15894
+DDoS-SynonymousIP_Flood     15234
+DoS-UDP_Flood               14211
+Name: count, dtype: int64

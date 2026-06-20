@@ -1,0 +1,22 @@
+
+ATTACK DISTRIBUTION
+
+UNSW-NB15_1.csv
+{'Unknown': 677786, 'Generic': 7522, 'Exploits': 5409, ' Fuzzers': 5051, 'Reconnaissance': 1759, 'DoS': 1167, 'Backdoors': 534, 'Analysis': 526, 'Shellcode': 223, 'Worms': 24}
+UNSW-NB15_2.csv
+{'Unknown': 647252, 'Generic': 27883, 'Exploits': 11103, ' Fuzzers ': 4668, 'DoS': 4637, ' Reconnaissance ': 3116, 'Analysis': 608, 'Backdoor': 370, ' Shellcode ': 324, 'Worms': 40}
+UNSW-NB15_3.csv
+{'Unknown': 542576, 'Generic': 118198, 'Exploits': 16574, ' Fuzzers ': 9137, 'DoS': 5642, ' Reconnaissance ': 5582, 'Analysis': 873, 'Backdoor': 759, ' Shellcode ': 593, 'Worms': 67}
+UNSW-NB15_4.csv
+{'Unknown': 351150, 'Generic': 61878, 'Exploits': 11439, ' Fuzzers ': 5390, 'DoS': 4907, ' Reconnaissance ': 3530, 'Analysis': 670, 'Backdoor': 666, ' Shellcode ': 371, 'Worms': 43}
+
+LABEL DISTRIBUTION
+
+UNSW-NB15_1.csv
+{0: 677786, 1: 22215}
+UNSW-NB15_2.csv
+{0: 647252, 1: 52749}
+UNSW-NB15_3.csv
+{0: 542576, 1: 157425}
+UNSW-NB15_4.csv
+{0: 351150, 1: 88894}
