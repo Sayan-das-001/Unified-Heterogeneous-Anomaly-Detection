@@ -46,3 +46,13 @@ Thumbs.db
 
 *.parquet
 *.tmp
+Upload_Backup_19_June/
+*.tar.gz
+
+__pycache__/
+*.pyc
+
+models/
+ensemble/predictions/
+ensemble/validation_predictions/
+ensemble/proper_stacking/
