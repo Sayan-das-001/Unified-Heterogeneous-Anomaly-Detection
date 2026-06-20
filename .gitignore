@@ -56,3 +56,10 @@ models/
 ensemble/predictions/
 ensemble/validation_predictions/
 ensemble/proper_stacking/
+Upload_Backup_19_June/
+Upload_Backup_19_June.tar.gz
+
+ensemble/domain_test_split.csv
+ensemble/predictions/
+ensemble/validation_predictions/
+ensemble/proper_stacking/
